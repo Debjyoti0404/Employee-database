@@ -153,7 +153,7 @@ int main()
     system("cls");
     //int pass;
     int opt;
-    fp = fopen("employee.txt","ab+");   //employee.txt
+    fp = fopen("employee.txt","rb+");   //employee.txt
     printf("WELCOME TO EMPLOYEE DATABASE\n");
     system("pause");
     printf("Enter any key to continue.....");
